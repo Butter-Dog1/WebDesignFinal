@@ -1,0 +1,9 @@
+header{
+    background-image: url(https://www.bungie.net/7/ca/destiny/bgs/new_light/hero_bg_desktop.jpg);
+    height: 860px;
+    background-size: cover;
+}
+
+.home_button{
+    height: 50px;
+}
