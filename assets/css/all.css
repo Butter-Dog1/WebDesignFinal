@@ -1,9 +1,186 @@
-header{
-    background-image: url(https://www.bungie.net/7/ca/destiny/bgs/new_light/hero_bg_desktop.jpg);
+@font-face {
+    font-family: 'futur';
+    src: url(../fonts/FTR45__C.ttf);
+    src: url(../fonts/futur.ttf);
+    src: url(../fonts/futur2.ttf);
+    src: url(../fonts/FUTURA-N.ttf);
+    src: url(../fonts/FUTURA.ttf);
+    src: url(../fonts/FUTURA2.ttf);
+    src: url(../fonts/FUTURA21.ttf);
+    src: url(../fonts/FUTURA4.ttf);
+    src: url(../fonts/Futura_20Medium_20BT.ttf);
+    src: url(../fonts/FuturaBoldCondensedBT.ttf);
+
+}
+div #nav{
+    position: absolute;
+}
+div #home{
+    background-image: url('../images/D2_background.jpg');
     height: 860px;
     background-size: cover;
+    background-color: rgb(46, 46, 46);
+    background-repeat: no-repeat;
 }
 
+div #about{
+    background-image: url('../images/d2_cosmodrome.jpg');
+    height: 1080;
+    width: 1920;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(46, 46, 46);
+
+}
+
+div #classes{
+    background-image: url('../images/d2_class_background.jpg');
+    height: 1080;
+    width: 1920;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(46, 46, 46);
+}
+
+body {
+    background-color: rgb(46, 46, 46);
+    margin: 0px;
+}
+
+header {
+    background-color: rgb(46, 46, 46);
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    font-size: 200px;
+    font-family: 'futur';
+    font-weight: 100;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    
+    
+}
+
+h2{
+    padding-top: 0;
+    margin-top: 0;
+    color: #fff;
+    font-size: 150px;
+    font-family: 'futur';
+    font-weight: 100;
+    padding-left: 40px;
+}
+
+h3{
+    padding-top: 0;
+    margin-top: 0;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'futur';
+    font-weight: 100;
+    padding-left: 40px;
+}
+
+.about{
+    font-family: 'futur';
+    color: #fff;
+    font-size: 50px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: 20%;
+    margin-bottom: 0;
+
+}
 .home_button{
     height: 50px;
+    background: 0;
+    border: 0px;
+    padding: 0px;
+    padding-left: 5px;
+    padding-top: 5px;
 }
+
+button:hover{
+    background-color: rgb(46, 46, 46);
+}
+.nav-button{
+    float: right;
+    background: 10;
+    background-color: rgb(54, 54, 54);
+    border: 0;
+    height: 64px;
+    margin: 0px;
+    width: 100px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-family: 'futur';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+div #nav {
+    position: relative;
+    background-color: rgb(54, 54, 54, 70%);
+    width: 100%;
+}
+
+hr{
+    background-color: rgb(65, 65, 65);
+    color: rgb(65, 65, 65);
+    border-color: rgb(65, 65, 65);
+    height: 4px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+  
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 60px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33%;
+    padding: 0px;
+    text-align: center;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+.tex-box{
+    width: 20%;
+    padding: 5px;
+    background-color: rgb(119, 40, 40);
+    text-align: center;
+}  
+  
+  
+  
+
+
