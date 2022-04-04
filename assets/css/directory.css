@@ -1,0 +1,8 @@
+div #top_page{
+    background-image: url('../images/directory.jpeg');
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(46, 46, 46);
+    background-repeat: no-repeat;
+}

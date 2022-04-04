@@ -1,0 +1,74 @@
+div #top_page{
+    background-image: url('../images/d2_characters_background.jpg');
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(46, 46, 46);
+    background-repeat: no-repeat;
+}
+
+div #ikora{
+    background-image: url('../images/ikora_interaction.jpeg');
+    height: fit-content;
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-color: rgb(46, 46, 46);
+    background-repeat: no-repeat;
+}
+
+div #ikora h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+div #zavala{
+    background-image: url('../images/zavala_interaction.jpeg');
+    height: fit-content;
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-color: rgb(46, 46, 46);
+    background-repeat: no-repeat;
+}
+
+div #zavala h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+div #cayde-6{
+    background-image: url('../images/cayde-6.jpeg');
+    height: fit-content;
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-color: rgb(46, 46, 46);
+    background-repeat: no-repeat;
+}
+
+div #cayde-6 h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+
+div .text-box{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(54, 54, 54, 70%);
+    width: 500px;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.text-box hr{
+    background-color: #fff;
+    border: 0;
+
+}

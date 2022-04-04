@@ -1,0 +1,84 @@
+div #nav{
+    position: absolute;
+}
+div #top_page{
+    background-image: url('../images/D2_background.jpg');
+    height: 860px;
+    width: 100%;
+    background-size: cover;
+    background-color: rgb(46, 46, 46);
+    background-repeat: no-repeat;
+}
+
+div #about{
+    
+    background-image: url('../images/d2_cosmodrome.jpg');
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(46, 46, 46);
+    ;
+}
+
+div #classes{
+    background-image: url('../images/d2_class_background.jpg');
+    height: 1080px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(46, 46, 46);
+}
+
+h3.classes{
+    padding-top: 0;
+    margin-top: 0;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'futur';
+    font-weight: 100;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+
+div #nav {
+    position: fixed;
+    top: 0;
+    background-color: rgb(54, 54, 54, 70%);
+    width: 100%;
+}
+
+#about p{
+    color: #fff;
+    font-family: 'futur';
+    max-width: 35%;
+    margin-right:  10%;
+    font-size: 40px;
+    background: 20px;
+    background-color: rgb(54, 54, 54, 70%);
+    border-radius: 10%;
+    border: 40px;
+    border-color: rgb(54, 54, 54, 70%);
+    padding-bottom: 0%;
+    padding: 15px;
+}
+
+#classes p{
+    color: #fff;
+    font-family: 'futur';
+    width: 40%;
+    margin-left: 33%;
+    margin-right: 33%;
+    font-size: 30px;
+    background: 20px;
+    background-color: rgb(54, 54, 54, 70%);
+    border-radius: 10%;
+    border: rgb(54, 54, 54, 70%);
+
+}
+
+#classes img{
+    border-radius: 8px;
+    border: 4px;
+    
+}

@@ -12,34 +12,13 @@
     src: url(../fonts/FuturaBoldCondensedBT.ttf);
 
 }
-div #nav{
+
+div #nav {
     position: absolute;
-}
-div #home{
-    background-image: url('../images/D2_background.jpg');
-    height: 860px;
-    background-size: cover;
-    background-color: rgb(46, 46, 46);
-    background-repeat: no-repeat;
-}
-
-div #about{
-    background-image: url('../images/d2_cosmodrome.jpg');
-    height: 1080;
-    width: 1920;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(46, 46, 46);
-
-}
-
-div #classes{
-    background-image: url('../images/d2_class_background.jpg');
-    height: 1080;
-    width: 1920;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(46, 46, 46);
+    position: fixed;
+    top: 0;
+    background-color: rgb(54, 54, 54, 70%);
+    width: 100%;
 }
 
 body {
@@ -75,16 +54,6 @@ h2{
     padding-left: 40px;
 }
 
-h3{
-    padding-top: 0;
-    margin-top: 0;
-    color: #fff;
-    font-size: 50px;
-    font-family: 'futur';
-    font-weight: 100;
-    padding-left: 40px;
-}
-
 .about{
     font-family: 'futur';
     color: #fff;
@@ -114,7 +83,7 @@ button:hover{
     border: 0;
     height: 64px;
     margin: 0px;
-    width: 100px;
+    width: 150px;
 }
 
 a{
@@ -124,13 +93,6 @@ a{
     text-decoration: none;
 }
 
-
-div #nav {
-    position: relative;
-    background-color: rgb(54, 54, 54, 70%);
-    width: 100%;
-}
-
 hr{
     background-color: rgb(65, 65, 65);
     color: rgb(65, 65, 65);
@@ -138,25 +100,10 @@ hr{
     height: 4px;
     margin: 0;
     padding: 0;
-    
-}
-
-/* Page content */
-.content {
-    padding: 16px;
-}
-  
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
     width: 100%;
 }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-    padding-top: 60px;
-}
+
+
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -164,6 +111,7 @@ hr{
     width: 33%;
     padding: 0px;
     text-align: center;
+    
   }
   
   /* Clear floats after image containers */
@@ -172,15 +120,13 @@ hr{
     clear: both;
     display: table;
   }
-  
-.tex-box{
-    width: 20%;
-    padding: 5px;
-    background-color: rgb(119, 40, 40);
-    text-align: center;
-}  
-  
-  
-  
+
+p{
+  max-width: 1000px;
+  color: #fff;
+  font-family: 'futur';
+  font-weight: 100;
+  font-size: 30px;
+}
 
 
